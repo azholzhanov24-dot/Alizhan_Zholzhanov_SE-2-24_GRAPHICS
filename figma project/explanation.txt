@@ -1,0 +1,11 @@
+As part of this practical assignment, a visual interface for the "To-Do List App" was developed, designed in accordance with the fundamental principles of User Experience (UX) and Graphical User Interfaces (GUI).
+
+When designing the layout, special attention was paid to the visual hierarchy of elements and ease of interaction:
+
+- Title and Structure: The application name ("Notes" / "To-Do List") is clearly displayed at the top of the screen, defining the context of the workspace.
+
+- Text Input Field (Text Field): It is placed in an accessible location, allowing the user to quickly type new notes or tasks using the keyboard.
+
+- Controls (Buttons): Three key functional buttons are placed on the screen to manage items (e.g., adding, editing, and deleting tasks). The buttons are large and clearly positioned so that the user can intuitively interact with the list without unnecessary clicks.
+
+- Layout: The interface is clean and not overloaded with details, proper spacing and margins are maintained, and the user's focus is immediately balanced between the input field and the current task list.
