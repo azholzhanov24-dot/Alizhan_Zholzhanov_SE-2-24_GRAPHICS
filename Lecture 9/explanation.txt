@@ -1,1 +1,4 @@
-This program demonstrates interactive list management using the Listbox widget. When the window is initialized, the list is populated with default string values ​​using the .insert() method. Three interaction vectors are implemented: adding new elements from a text field with preliminary validation for emptiness, deleting a specific selected element by obtaining its current index using the .curselection() method, and completely clearing the entire data array within the Listbox using the .delete(0, tk.END) method.
+This program demonstrates interactive list management using the Listbox widget. When the window is initialized, the list is populated with default string values ​​using 
+the .insert() method. Three interaction vectors are implemented: adding new elements from a text field with preliminary validation for emptiness, deleting a specific 
+selected element by obtaining its current index using the .curselection() method, and completely clearing the entire data array within the Listbox using the .delete(0, 
+tk.END) method.
