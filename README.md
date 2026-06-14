@@ -45,16 +45,3 @@ The repository is organized chronologically, tracking the progression from basic
 ### 📁 Task 9: Dynamic Data Lists with Listbox
 * **Topic:** Interactive Item Collections.
 * **Description:** A dynamic Task Manager implementation using the `Listbox` widget. Supports real-time entry insertion with trimming validation, selective item removal using current item selections (`.curselection()`), and complete list clearing.
-
----
-
-## Technologies Used
-* **Language:** Python 3.x
-* **GUI Framework:** Tkinter (Standard Library)
-* **Concepts:** Event-Driven Programming, Object-Oriented Programming (OOP), UI/UX Layout Design (Pack & Grid Managers).
-
-## How to Run the Projects
-1. Make sure you have Python installed.
-2. Clone this repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
