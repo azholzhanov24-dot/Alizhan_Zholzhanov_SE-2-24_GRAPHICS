@@ -1,1 +1,4 @@
-The application is built using the Tkinter library and implements an event-driven model. Upon launch, a main window is created, containing a text input field, a calculation button, a clear button, and text labels. The main logic is concentrated in the calculate_square handler function, which is triggered exclusively when the "Calculate Square" button is clicked. The function reads the entered value, checks whether it is empty or whether the number was entered correctly, and then displays the squared value in the bottom label or displays an error message in the message box.
+The application is built using the Tkinter library and implements an event-driven model. Upon launch, a main window is created, containing a text input field, a 
+calculation button, a clear button, and text labels. The main logic is concentrated in the calculate_square handler function, which is triggered exclusively when the 
+"Calculate Square" button is clicked. The function reads the entered value, checks whether it is empty or whether the number was entered correctly, and then displays 
+the squared value in the bottom label or displays an error message in the message box.
