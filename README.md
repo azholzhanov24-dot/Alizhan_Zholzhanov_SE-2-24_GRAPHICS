@@ -1,0 +1,1 @@
+# Alizhan_Zholzhanov_SE-2-24_GRAPHICS
