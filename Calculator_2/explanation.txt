@@ -1,1 +1,3 @@
-This version of the app focuses on handling input errors and improving the user experience (UX). The program includes three levels of validation: blocking empty fields, checking for numeric type compliance, and disabling negative values. To improve UX, the calculation button is automatically disabled if the input field is empty, and a successful result is highlighted in green. A "Clear" button has also been implemented, returning the interface to its original state.
+This version of the app focuses on handling input errors and improving the user experience (UX). The program includes three levels of validation: blocking empty 
+fields, checking for numeric type compliance, and disabling negative values. To improve UX, the calculation button is automatically disabled if the input field is 
+empty, and a successful result is highlighted in green. A "Clear" button has also been implemented, returning the interface to its original state.
