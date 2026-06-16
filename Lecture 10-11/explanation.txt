@@ -2,8 +2,11 @@ This application demonstrates the integration of persistent data storage with a 
 
 The application is structured using Object-Oriented Programming (OOP) principles to ensure modularity and clean state management:
 
-- Persistent Data Layer: Unlike previous volatile applications, this program bridges the GUI with a flat-file storage engine (students.txt). Data is safely written using a stream context manager (with open()) in append mode ("a"), ensuring historical records are preserved across application lifecycles.
+- Persistent Data Layer: Unlike previous volatile applications, this program bridges the GUI with a flat-file storage engine (students.txt). Data is safely written using a stream context
+manager (with open()) in append mode ("a"), ensuring historical records are preserved across application lifecycles.
 
-- Proactive Input Sanitization: The system implements a robust multi-tier validation mechanism. It prevents the submission of blank records and utilizes a try-except block to intercept ValueError anomalies, blocking non-numeric inputs in the age field before any write operation execution.
+- Proactive Input Sanitization: The system implements a robust multi-tier validation mechanism. It prevents the submission of blank records and utilizes a try-except block to intercept
+ValueError anomalies, blocking non-numeric inputs in the age field before any write operation execution.
 
-- Multi-Window Architecture (Toplevel): To separate data entry from data review, the "View Records" function dynamically instantiates a secondary window using the tk.Toplevel() class. The stored data is loaded from the stream and rendered within a read-only tk.Text widget component to prevent accidental modification during viewing.
+- Multi-Window Architecture (Toplevel): To separate data entry from data review, the "View Records" function dynamically instantiates a secondary window using the tk.Toplevel() class. The 
+stored data is loaded from the stream and rendered within a read-only tk.Text widget component to prevent accidental modification during viewing.
